@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Page Title</title>
+</head>
+
+<body>
+  <h1 style="color:brown">
+    <pre>                              This is my first linguistic project                   </pre> </h1>
+  <pre>                                                                                    <img src="lol.jpg" width="162" height="114">              </pre>
+  <h2>
+    <pre>                                    "The most popular 10 words (forms) in 5-9th class texts".         </pre> </h2>
+  <a href="http://www.examen.ru/add/manual/materialyi-dlya-shkolnikov/spiski-literatury-dlia-chteniia-letom/dlia-5-classa"
+    style="color:green">This is a link to texts</a>
+    <pre>                                                         
+      <p>5th class</p>
+      <button type="button"
+          onclick="toggle('five-class');">
+        Click me to know.
+      </button>
+      <p id="five-class" style="display:none">
+        1) ПЯТНИЦА
+        2) БЕРЕГ
+        3) КОРАБЛЬ
+        4) КАМЕНЬ
+        5) ОСТРОВ
+        6) ГОРЫ
+        7) СТРАШНО
+        8) ПОЖАЛУЙ
+        9) РУЖЬЕ
+        10) ХЛЕБ
+      </p>
+        <p>6th class</p>
+      <button type="button"
+          onclick="toggle('six-class');">
+        Click me to know.
+      </button>
+      <p id="six-class" style="display:none">
+        1) ШТАНЫ
+        2) БАБА
+        3) ГОСПОДИН
+        4) ЛОШАДЬ
+        5) СПОКОЙНО
+        6) ГЕНЕРАЛ
+        7) ЛАСКОВО
+        8) МГНОВЕНИЕ
+        9) ТОСКЛИВО
+        10) КЛАСС
+      </p>
+        <p>7th class</p>
+      <button type="button"
+          onclick="toggle('seven-class');">
+        Click me to know.
+      </button>
+      <p id="seven-class" style="display:none">
+        1) КОЗАКИ
+        2) ТИХОНЬКО
+        3) ДЯДЯ
+        4) ЦАРЬ
+        5) ГУБЫ
+        6) ВОЗДУХ
+        7) УГОЛ
+        8) ДОБРЫЙ
+        9) КРОВЬ
+        10) СОБАКА
+      </p>
+        <p>8th class</p>
+      <button type="button"       
+          onclick="toggle('eight-class');">
+        Click me to know.
+      </button>
+      <p id="eight-class" style="display:none">
+        1) РЫЦАРЬ
+        2) ПРИНЦ
+        3) СТОЛЬ*
+        4) ДОКТОР
+        5) КЛЯНУСЬ*
+        6) ДУМАТЬ
+        7) СИХ*
+        8) ЧЕТЫРЕ
+        9) РЕЧЬ
+        10) СЭР
+
+      </p>
+        <p>9th class</p>
+      <button type="button"
+          onclick="toggle('nine-class');">
+        Click me to know.
+      </button>
+      <p id="nine-class" style="display:none">
+        1) МИЛОРД
+        2) МАТУШКА
+        3) БОЖЕ
+        4) МНОГИЕ
+        5) НИКАК
+        6) КОРОЛЕВА
+        7) НЫНЧЕ
+        8) ИЛЬ*
+        9) РАЗГОВОР
+        10) ПРОФЕССОР
+
+      </p>
+                                                                    </pre>
+</body>
+
+</html>
+
+<script>
+                   var toggle = function (className) {
+                     var mydiv = document.getElementById(className);
+                     if (mydiv.style.display === 'block' || mydiv.style.display === '')
+                       mydiv.style.display = 'none';
+                     else
+                       mydiv.style.display = 'block'
+                   }
+
+</script>
